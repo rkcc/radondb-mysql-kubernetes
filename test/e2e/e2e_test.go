@@ -41,6 +41,7 @@ import (
 
 	// Test case source.
 	// Comment out the package that you don't want to run.
+	// _ "github.com/radondb/radondb-mysql-kubernetes/test/e2e/cluster"
 	_ "github.com/radondb/radondb-mysql-kubernetes/test/e2e/simplecase"
 )
 
